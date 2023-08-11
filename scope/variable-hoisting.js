@@ -11,4 +11,8 @@ function test() {
     let a = 2
 }
 
-test()
+var x = 1;
+function x() {}
+console.log(typeof x);
+
+// test()
