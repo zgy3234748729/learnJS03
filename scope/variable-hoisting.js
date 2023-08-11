@@ -11,8 +11,11 @@ function test() {
     let a = 2
 }
 
+// 函数优先级比变量优先级高
+// var x 覆盖了function x
 var x = 1;
 function x() {}
 console.log(typeof x);
+// number
 
 // test()
