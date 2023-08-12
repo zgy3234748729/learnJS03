@@ -23,4 +23,4 @@ function getlinkListLength(list) {
     return i
 }
 
-console.log(getlinkListLength(linkList))
+console.log(getlinkListLength(linkList)) 
