@@ -3,4 +3,9 @@ function test() {
     return 'hello'
 }
 
-console.log(test);
+test()
+// console.log(test);
+const fn = function test() {
+    console.log('test');
+}
+fn()
